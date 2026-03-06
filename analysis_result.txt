@@ -1,0 +1,24 @@
+Analyzing lib...                                                
+
+warning - Unused import: '../../shared/constants/app_constants.dart' - lib\core\repositories\activity_repository.dart:6:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\core\repositories\user_repository.dart:91:16 - unnecessary_underscores
+warning - The value of the local variable 'authState' isn't used - lib\core\router\app_router.dart:48:9 - unused_local_variable
+   info - 'stream' is deprecated and shouldn't be used. .stream will be removed in 3.0.0. As a replacement, either listen to the provider itself (AsyncValue) or .future - lib\core\router\app_router.dart:56:41 - deprecated_member_use
+warning - Unused import: '../../../../core/models/activity_model.dart' - lib\features\home\presentation\screens\home_feed_screen.dart:6:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\home_feed_screen.dart:154:43 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\home_feed_screen.dart:170:28 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\home_feed_screen.dart:234:41 - unnecessary_underscores
+warning - The value of the local variable 'colorScheme' isn't used - lib\features\home\presentation\screens\map_view_screen.dart:27:11 - unused_local_variable
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\search_screen.dart:122:41 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\search_screen.dart:144:26 - unnecessary_underscores
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\home\presentation\widgets\activity_card.dart:2:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\widgets\activity_card.dart:66:43 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\widgets\activity_card.dart:66:47 - unnecessary_underscores
+  error - Target of URI doesn't exist: '../../../shared/constants/app_constants.dart' - lib\features\home\presentation\widgets\category_chips.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'AppConstants' - lib\features\home\presentation\widgets\category_chips.dart:23:20 - undefined_identifier
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\widgets\category_chips.dart:24:31 - unnecessary_underscores
+  error - Undefined name 'AppConstants' - lib\features\home\presentation\widgets\category_chips.dart:36:28 - undefined_identifier
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\widgets\category_chips.dart:129:31 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\onboarding\presentation\screens\splash_screen.dart:86:18 - unnecessary_underscores
+
+20 issues found. (ran in 1.1s)

@@ -1,0 +1,51 @@
+Analyzing lib...                                                
+
+warning - Unused import: '../../shared/constants/app_constants.dart' - lib\core\repositories\activity_repository.dart:6:8 - unused_import
+warning - Unused import: '../providers/core_providers.dart' - lib\core\repositories\chat_repository.dart:6:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\core\repositories\user_repository.dart:91:16 - unnecessary_underscores
+warning - The value of the local variable 'authState' isn't used - lib\core\router\app_router.dart:49:9 - unused_local_variable
+   info - 'stream' is deprecated and shouldn't be used. .stream will be removed in 3.0.0. As a replacement, either listen to the provider itself (AsyncValue) or .future - lib\core\router\app_router.dart:57:41 - deprecated_member_use
+  error - Undefined name 'joinedActivitiesProvider' - lib\features\chat\presentation\screens\chat_list_screen.dart:14:45 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\screens\chat_screen.dart:97:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\screens\chat_screen.dart:194:59 - deprecated_member_use
+warning - The declaration '_previousPage' isn't referenced - lib\features\create\presentation\screens\create_activity_shell.dart:40:8 - unused_element
+  error - Target of URI doesn't exist: '../../providers/create_activity_provider.dart' - lib\features\create\presentation\screens\steps\activity_datetime_step.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_datetime_step.dart:12:29 - undefined_identifier
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_datetime_step.dart:13:31 - undefined_identifier
+  error - Target of URI doesn't exist: '../../providers/create_activity_provider.dart' - lib\features\create\presentation\screens\steps\activity_info_step.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_info_step.dart:20:28 - undefined_identifier
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_info_step.dart:35:29 - undefined_identifier
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_info_step.dart:36:31 - undefined_identifier
+  error - Target of URI doesn't exist: '../../providers/create_activity_provider.dart' - lib\features\create\presentation\screens\steps\activity_limits_step.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_limits_step.dart:12:29 - undefined_identifier
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_limits_step.dart:13:31 - undefined_identifier
+  error - Target of URI doesn't exist: '../../../../shared/constants/app_constants.dart' - lib\features\create\presentation\screens\steps\activity_location_step.dart:5:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../providers/create_activity_provider.dart' - lib\features\create\presentation\screens\steps\activity_location_step.dart:6:8 - uri_does_not_exist
+warning - The value of the field '_mapController' isn't used - lib\features\create\presentation\screens\steps\activity_location_step.dart:16:24 - unused_field
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_location_step.dart:23:28 - undefined_identifier
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_location_step.dart:37:29 - undefined_identifier
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_location_step.dart:38:31 - undefined_identifier
+  error - Evaluation of this constant expression throws an exception - lib\features\create\presentation\screens\steps\activity_location_step.dart:77:20 - const_eval_throws_exception
+  error - Invalid constant value - lib\features\create\presentation\screens\steps\activity_location_step.dart:77:33 - invalid_constant
+  error - Undefined name 'AppConstants' - lib\features\create\presentation\screens\steps\activity_location_step.dart:77:33 - undefined_identifier
+  error - Invalid constant value - lib\features\create\presentation\screens\steps\activity_location_step.dart:77:65 - invalid_constant
+  error - Undefined name 'AppConstants' - lib\features\create\presentation\screens\steps\activity_location_step.dart:77:65 - undefined_identifier
+  error - Target of URI doesn't exist: '../../providers/create_activity_provider.dart' - lib\features\create\presentation\screens\steps\activity_review_step.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'createActivityNotifierProvider' - lib\features\create\presentation\screens\steps\activity_review_step.dart:12:29 - undefined_identifier
+   info - The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' - lib\features\create\providers\create_activity_provider.dart:2:8 - unnecessary_import
+warning - Unused import: 'package:google_maps_flutter/google_maps_flutter.dart' - lib\features\create\providers\create_activity_provider.dart:3:8 - unused_import
+warning - Unused import: '../../../../core/models/activity_model.dart' - lib\features\home\presentation\screens\home_feed_screen.dart:6:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\home_feed_screen.dart:154:43 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\home_feed_screen.dart:170:28 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\home_feed_screen.dart:234:41 - unnecessary_underscores
+warning - The value of the local variable 'colorScheme' isn't used - lib\features\home\presentation\screens\map_view_screen.dart:27:11 - unused_local_variable
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\search_screen.dart:122:41 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\screens\search_screen.dart:144:26 - unnecessary_underscores
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\home\presentation\widgets\activity_card.dart:2:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\widgets\activity_card.dart:66:43 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\widgets\activity_card.dart:66:47 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\widgets\category_chips.dart:24:31 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\home\presentation\widgets\category_chips.dart:129:31 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\onboarding\presentation\screens\splash_screen.dart:86:18 - unnecessary_underscores
+
+47 issues found. (ran in 2.8s)
